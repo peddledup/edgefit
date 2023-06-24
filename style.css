@@ -144,4 +144,27 @@
     #nav-top-2{
         padding-right: 0;
     }
+    .yellow-rect{
+        position: relative;
+        padding-left: 12px;
+    }
+    #meal-rect{
+        top: 0;
+        left: 0;
+    }
+    #p1{
+        margin-left: 0px;
+    }
+    
+    #p2{
+        margin-left: 0px;
+    }
+    
+    #h-1{
+        margin-left: 0px;
+    }
+    
+    #h-2{
+        margin-left: 0px;
+    }
 }
