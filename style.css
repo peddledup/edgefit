@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+#nav-top-1{
+    background-color: #72A530;
+    padding-left: 100px;
+}
+.nav-link img{
+    width: 17.572px;
+    height: 14.614px;
+    flex-shrink: 0;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+#navbarTogglerDemo02 #nav-top-2 .nav-item .nav-link{
+    color: black;
+    font-family: 'KoHo', sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+    
+}
+#nav-btn{
+    background-color: #72A530;
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    height: 39px;
+    color: white;
+    flex-shrink: 0;
+}
+#nav-top-2{
+    padding-right: 90px;
+}
+.navbar-brand{
+    padding-left: 90px;
+}
+#email{
+    padding-right: 90px;
+}
+#carousel-1{
+    background-color: #EEF7F8;
+    max-width: 1920px;
+    max-height: 1920px;
+    width: auto;
+    height: auto;
+    padding-bottom: 90px;
+}
+#p1{
+    color: #FFA300;
+    font-family: KoHo;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+#p2{
+    font-family: KoHo;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#1E251C;
+    
+}
+#h-1{
+    color: #72A530;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#h-2{
+    color: #3D3D3D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.order-btn{
+    background-color: #FFA300;
+    width: 157px;
+    height: 46px;
+    top: 541px;
+    left: 192px;
+    border-radius: 10px 0px 23px 0px;
+    border: none;
+
+}
+#left-top{
+    padding-left: 90px;
+    padding-top: 90px;
+}
+.img-user{
+    margin-top: 12px;
+    border-radius: 22.5px;
+    float: left;
+}
+#p3{
+    color: black;
+    font-family: KoHo;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+#p3 img{
+    margin-left: 0;
+}
+.yellow-rect{
+    position: absolute;
+    padding-left: 12px;
+}
+#meal-rect{
+    top: 51px;
+    left: 22px;
+}
+@media only screen and (max-width: 990px) {
+   #email{
+    display: none;
+   }
+   #nav-top-1{
+    display: none;
+   }
+   .navbar-brand{
+    padding-left:0px;
+    }
+    #nav-top-2{
+        padding-right: 0;
+    }
+}
