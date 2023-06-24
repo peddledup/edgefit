@@ -57,7 +57,6 @@
     font-style: italic;
     font-weight: 600;
     line-height: 21px;
-    letter-spacing: 0em;
 }
 #p2{
     font-family: KoHo;
@@ -66,7 +65,6 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
     color:#1E251C;
     
 }
@@ -77,7 +75,6 @@
     font-weight: 800;
     line-height: 85px;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 #h-2{
@@ -87,7 +84,6 @@
     font-weight: 800;
     line-height: 85px;
     letter-spacing: 0em;
-    text-align: left;
 }
 .order-btn{
     background-color: #FFA300;
@@ -116,7 +112,6 @@
     font-weight: 600;
     line-height: 21px;
     letter-spacing: 0em;
-    text-align: center;
     margin-top: 15px;
     margin-left: 3px;
 }
@@ -144,14 +139,7 @@
     #nav-top-2{
         padding-right: 0;
     }
-    .yellow-rect{
-        position: relative;
-        padding-left: 12px;
-    }
-    #meal-rect{
-        top: 0;
-        left: 0;
-    }
+    
     #p1{
         margin-left: 0px;
     }
