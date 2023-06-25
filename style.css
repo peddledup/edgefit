@@ -221,20 +221,18 @@
 .meal-card {
   max-height: 501px;
   height: auto;
-  width: fit-content;
+  max-width:312px;
   flex-shrink: 0;
   border-radius: 40px;
   background: rgba(217, 217, 217, 0.4);
   position: absolute;
   margin-top: 100px;
   text-align: center;
+  flex-shrink: 0;
+  width: auto;
   margin-left: 2px;
 }
-.meal-card img {
-  flex-shrink: 0;
-  position: relative;
-  top: -80px;
-}
+
 #p6 {
   position: relative;
   color: #343434;
@@ -249,10 +247,22 @@
   font-weight: 600;
 }
 .order-btn-2 {
-  width: 254px;
-  height: 51px;
+  max-width: 254px;
+  max-height: 51px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+font-family: Khand;
+font-weight: 500;
   flex-shrink: 0;
   border-radius: 10px;
   background: #72a530;
   border: none;
+  margin-bottom:35px ;
+}
+.mySwiper swiper-slide{
+    text-align: center;
+    border-radius: 40px;
+    background: rgba(217, 217, 217, 0.4);
+  
 }
