@@ -178,7 +178,7 @@
   }
   #top-div{
     margin-top:10px; 
-    margin-left:10px;
+    margin-left:0px;
   }
 }
 .data-active {
@@ -218,7 +218,7 @@
 #carousel-2 {
   background-color: #eef7f8;
   max-width: 1920px;
-  max-height: 852px;
+  max-height: 632px;
   width: auto;
   height: auto;
   padding-bottom: 90px;
