@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 #nav-top-1 {
   background-color: #72a530;
   padding-left: 100px;
@@ -90,6 +93,12 @@
   left: 192px;
   border-radius: 10px 0px 23px 0px;
   border: none;
+  color: #EEF7F8;
+    text-align: center;
+    font-size: 16px;
+    font-family: KoHo;
+    font-style: italic;
+    font-weight: 600;
 }
 #left-top {
   padding-left: 90px;
@@ -130,6 +139,9 @@
   height: auto;
   width: auto;
 }
+#top-div{
+    margin-top:90px; margin-left:90px;
+}
 @media only screen and (max-width: 990px) {
   #email {
     display: none;
@@ -163,6 +175,10 @@
   #left-top {
     padding-left: 10px;
     padding-top: 10px;
+  }
+  #top-div{
+    margin-top:10px; 
+    margin-left:10px;
   }
 }
 .data-active {
@@ -202,7 +218,7 @@
 #carousel-2 {
   background-color: #eef7f8;
   max-width: 1920px;
-  max-height: 632px;
+  max-height: 852px;
   width: auto;
   height: auto;
   padding-bottom: 90px;
@@ -265,4 +281,40 @@ font-weight: 500;
     border-radius: 40px;
     background: rgba(217, 217, 217, 0.4);
   
+}
+#footer{
+    background-color: #eef7f8;
+    max-width: 1920px;
+    max-height: 632px;
+    width: auto;
+    height: auto;
+    padding-bottom: 90px;
+}
+#footer-p{
+    color: #212121;
+font-size: 14px;
+font-family: 'Manrope', sans-serif;
+line-height: 174.1%;
+letter-spacing: 0.35px;
+text-transform: capitalize;
+margin-top:25px ;
+}
+#footer-h4{
+    color: #333;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+#p-links{
+    color: #333;
+font-size: 18px;
+font-family: Inter;
+line-height: 184%;
+}
+#p-links a{
+    text-decoration: none;
+    color: #333;
+}
+#p-links img{
+    padding-right: 2px;
 }
