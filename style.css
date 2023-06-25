@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
 
 #nav-top-1{
     background-color: #72A530;
@@ -118,13 +118,21 @@
 #p3 img{
     margin-left: 0;
 }
-.yellow-rect{
-    position: absolute;
-    padding-left: 12px;
+
+#right-top{
+    border-radius: 100px 0px 197px 83px;
+    max-width: 663px;
+    max-height: 642px;
+    height: auto;
+    width: auto;
+    background: url(/images/meal-1.svg), #FFA300 50% / cover no-repeat;
 }
-#meal-rect{
-    top: 51px;
-    left: 22px;
+#right-top-1{
+    border-radius: 100px 0px 197px 83px;
+    max-width: 663px;
+    max-height: 642px;
+    height: auto;
+    width: auto;    
 }
 @media only screen and (max-width: 990px) {
    #email{
@@ -154,9 +162,67 @@
     
     #h-2{
         margin-left: 0px;
+        font-size: 56px;
     }
     #left-top{
         padding-left: 10px;
         padding-top:10px;
     }
+}
+.data-active{
+    float: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 12px;
+    color: #72A530;
+
+}
+.data-active-2{
+    font-family: KoHo;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E251C;
+    
+
+}
+
+#p4{
+    font-family: KoHo;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color:#1E251C;
+}
+#p4 img{
+    margin-right: 12px;
+}
+#carousel-2{
+    background-color: #EEF7F8;
+    max-width: 1920px;
+    max-height: 632px;
+    width: auto;
+    height: auto;
+    padding-bottom: 90px;
+}
+#p5{
+    font-family: KoHo;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color:#1E251C;
+    text-align: center;
+    justify-items: center;
+    
 }
