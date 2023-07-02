@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
@@ -56,24 +57,26 @@
 
 #email {
   padding-right: 90px;
+  font-family: 'Manrope', sans-serif;
+  
 }
 
 #carousel-1 {
   background-color: #eef7f8;
   max-width: 1920px;
-  max-height: 1920px;
+  max-height: 590px;
   width: auto;
   height: auto;
   padding-bottom: 90px;
 }
 
 #p1 {
-  color: #ffa300;
-  font-family: KoHo;
+  color: #FFA300;
   font-size: 16px;
+  font-family: KoHo;
   font-style: italic;
   font-weight: 600;
-  line-height: 21px;
+  line-height: normal;
 }
 
 #p2 {
