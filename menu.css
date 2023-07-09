@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+
+#nav-top-1 {
+    background-color: #72a530;
+    padding-left: 100px;
+    height: 41px;
+}
+
+.nav-link img {
+    width: 17.572px;
+    height: 14.614px;
+    flex-shrink: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#navbarTogglerDemo02 #nav-top-2 .nav-item .nav-link {
+    color: black;
+    font-family: "KoHo", sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#nav-btn {
+    background-color: #72a530;
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    max-height: 39px;
+    height: auto;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    color: white;
+    flex-shrink: 0;
+}
+
+#nav-top-2 {
+    padding-right: 90px;
+}
+
+.navbar-brand {
+    padding-left: 90px;
+}
+
+#email {
+    padding-right: 90px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+    #email {
+        display: none;
+    }
+
+    #nav-top-1 {
+        display: none;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+    #nav-top-2 {
+        padding-right: 0;
+    }
+    .menu {
+        list-style-type: none;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .menu-item{
+        margin-top:10px ;
+    }
+}
+
+.cont-1 {
+    max-height: 1920px;
+    background-color: #4E4E4E;
+    height: auto;
+}
+.cont-2 {
+    max-height: 1920px;
+    background-color: #FFF;
+    height: auto;
+}
+.menu {
+    list-style-type: none;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.menu-item{
+    margin-top: 20px;
+}
+.food-name {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.food-ingridients {
+    color: #FFEAC6;
+    font-family: KoHo;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.food-name-white {
+    color: #4F4F4F;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.food-ingridients-white {
+    color: #626262;
+    font-family: KoHo;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.menu-item:hover{
+    display: block;
+    animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+.bg{
+    margin-bottom: 0px;
+    width: 798px;
+    height: 660px;
+    margin-top: 120PX;
+}
