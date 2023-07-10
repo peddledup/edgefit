@@ -93,7 +93,7 @@
 
 .cont-1 {
     max-height: 1920px;
-    background-color: #4E4E4E;
+    background-color: #F9EEE4;
     height: auto;
 }
 .cont-2 {
@@ -112,7 +112,7 @@
     margin-top: 20px;
 }
 .food-name {
-    color: #FFF;
+    color: #4F4F4F;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 30px;
     font-style: normal;
@@ -121,7 +121,7 @@
 }
 
 .food-ingridients {
-    color: #FFEAC6;
+    color: #626262;
     font-family: KoHo;
     font-size: 16px;
     font-style: italic;
