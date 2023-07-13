@@ -109,8 +109,9 @@
     cursor: pointer;
 }
 .menu-item{
-    margin-top: 20px;
+    margin-top: 10px;
 }
+
 .food-name {
     color: #4F4F4F;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -127,6 +128,7 @@
     font-style: italic;
     font-weight: 500;
     line-height: normal;
+    
 }
 
 .food-name-white {
@@ -135,7 +137,8 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height:normal;
+    
 }
 
 .food-ingridients-white {
@@ -162,4 +165,14 @@
     width: 798px;
     height: 660px;
     margin-top: 120PX;
+}
+.title-heading{
+    text-align: center;
+    color: #626262;
+    font-family: 'Manrope', sans-serif;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 0em;
+    padding-top: 20px;
 }
