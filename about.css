@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+
+#nav-top-1 {
+    background-color: #72a530;
+    padding-left: 100px;
+    height: 41px;
+}
+
+.nav-link img {
+    width: 17.572px;
+    height: 14.614px;
+    flex-shrink: 0;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#navbarTogglerDemo02 #nav-top-2 .nav-item .nav-link {
+    color: black;
+    font-family: "KoHo", sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#nav-btn {
+    background-color: #72a530;
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    max-height: 39px;
+    height: auto;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    color: white;
+    flex-shrink: 0;
+}
+
+#nav-top-2 {
+    padding-right: 90px;
+}
+
+.navbar-brand {
+    padding-left: 90px;
+}
+
+#email {
+    padding-right: 90px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.carousel-item{
+    max-height: 1920px;
+    
+}
+
+@media only screen and (max-width: 990px) {
+    #email {
+        display: none;
+    }
+
+    #nav-top-1 {
+        display: none;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+    #nav-top-2 {
+        padding-right: 0;
+    }
+    
+}
+#h-5{
+    color: #72a530;
+}
+
+
+body{margin-top:20px;
+    background:#eee;
+    }
+    .single_advisor_profile {
+        position: relative;
+        margin-bottom: 50px;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        z-index: 1;
+        border-radius: 15px;
+        -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+        box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+    }
+    .single_advisor_profile .advisor_thumb {
+        position: relative;
+        z-index: 1;
+        border-radius: 15px 15px 0 0;
+        margin: 0 auto;
+        padding: 30px 30px 0 30px;
+        background-color: #72a530;
+        overflow: hidden;
+    }
+    .single_advisor_profile .advisor_thumb::after {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        position: absolute;
+        width: 150%;
+        height: 80px;
+        bottom: -45px;
+        left: -25%;
+        content: "";
+        background-color: #ffffff;
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    @media only screen and (max-width: 575px) {
+        .single_advisor_profile .advisor_thumb::after {
+            height: 160px;
+            bottom: -90px;
+        }
+    }
+    .single_advisor_profile .advisor_thumb .social-info {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: 0;
+        right: 30px;
+        text-align: center;
+    }
+    .single_advisor_profile .advisor_thumb .social-info a {
+        font-size: 14px;
+        color: #020710;
+        padding: 0 5px;
+    }
+    .single_advisor_profile .advisor_thumb .social-info a:hover,
+    .single_advisor_profile .advisor_thumb .social-info a:focus {
+        color: #72a530;
+    }
+    .single_advisor_profile .advisor_thumb .social-info a:last-child {
+        padding-right: 0;
+    }
+    .single_advisor_profile .single_advisor_details_info {
+        position: relative;
+        z-index: 1;
+        padding: 30px;
+        text-align: center;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        border-radius: 0 0 15px 15px;
+        background-color: #ffffff;
+    }
+    .single_advisor_profile .single_advisor_details_info::after {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        position: absolute;
+        z-index: 1;
+        width: 50px;
+        height: 3px;
+        background-color: #72a530;
+        content: "";
+        top: 12px;
+        right: 30px;
+    }
+    .single_advisor_profile .single_advisor_details_info h6 {
+        margin-bottom: 0.25rem;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single_advisor_profile .single_advisor_details_info h6 {
+            font-size: 14px;
+        }
+    }
+    .single_advisor_profile .single_advisor_details_info p {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single_advisor_profile .single_advisor_details_info p {
+            font-size: 12px;
+        }
+    }
+    .single_advisor_profile:hover .advisor_thumb::after,
+    .single_advisor_profile:focus .advisor_thumb::after {
+        background-color: #72a530;
+    }
+    .single_advisor_profile:hover .advisor_thumb .social-info a,
+    .single_advisor_profile:focus .advisor_thumb .social-info a {
+        color: #ffffff;
+    }
+    .single_advisor_profile:hover .advisor_thumb .social-info a:hover,
+    .single_advisor_profile:hover .advisor_thumb .social-info a:focus,
+    .single_advisor_profile:focus .advisor_thumb .social-info a:hover,
+    .single_advisor_profile:focus .advisor_thumb .social-info a:focus {
+        color: #ffffff;
+    }
+    .single_advisor_profile:hover .single_advisor_details_info,
+    .single_advisor_profile:focus .single_advisor_details_info {
+        background-color: #72a530;
+    }
+    .single_advisor_profile:hover .single_advisor_details_info::after,
+    .single_advisor_profile:focus .single_advisor_details_info::after {
+        background-color: #ffffff;
+    }
+    .single_advisor_profile:hover .single_advisor_details_info h6,
+    .single_advisor_profile:focus .single_advisor_details_info h6 {
+        color: #ffffff;
+    }
+    .single_advisor_profile:hover .single_advisor_details_info p,
+    .single_advisor_profile:focus .single_advisor_details_info p {
+        color: #ffffff;
+    }
+    #p1 {
+        color: #FFA300;
+        font-size: 16px;
+        font-family: KoHo;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+      }
+      #p2 {
+        font-family: KoHo;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #1e251c;
+      }
+      
+      #h-1 {
+        color: #72a530;
+        font-family: "Montserrat", sans-serif;
+        font-size: 70px;
+        font-weight: 800;
+        line-height: 85px;
+        letter-spacing: 0em;
+      }
+      
+      #h-2 {
+        color: #3d3d3d;
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 75px;
+        letter-spacing: 0em;
+      }      
