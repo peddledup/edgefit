@@ -90,7 +90,47 @@
         margin-top:10px ;
     }
 }
-
+footer {
+    background-color: #eef7f8;
+    max-width: 1920px;
+    max-height: 732px;
+    width: auto;
+    height: auto;
+    padding-bottom: 90px;
+  }
+  
+  #footer-p {
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 174.1%;
+    letter-spacing: 0.35px;
+    text-transform: capitalize;
+    margin-top: 25px;
+  }
+  
+  #footer-h4 {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  
+  #p-links {
+    color: #333;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 184%;
+  }
+  
+  #p-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #p-links img {
+    padding-right: 2px;
+  }
 .cont-1 {
     max-height: 1920px;
     background-color: #F9EEE4;
@@ -130,7 +170,9 @@
     line-height: normal;
     
 }
-
+.custom-toggler.navbar-toggler{
+    border-color: #72a530;
+  }
 .food-name-white {
     color: #4F4F4F;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -183,3 +225,12 @@
     background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+#carousel-2 {
+    background-color: #eef7f8;
+    max-width: 1920px;
+    max-height: 532px;
+    width: auto;
+    height: auto;
+    padding-bottom: 90px;
+  }
+ 

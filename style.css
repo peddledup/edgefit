@@ -174,13 +174,19 @@
 
 #right-top {
   border-radius: 100px 0px 197px 83px;
-  max-width: 640px;
+  max-width: 374px;
   max-height: 550px;
   height: auto;
   width: auto;
   background: url(/images/meal-1.svg), #ffa300 50% / cover no-repeat;
 }
-
+#right-top img{
+  max-height:530px ;
+  max-width: 354px;
+  width: auto;
+  height: auto;
+  border-radius: 100px 0px 197px 83px;
+}
 #right-top-1 {
   border-radius: 100px 0px 197px 83px;
   max-width: 663px;
@@ -512,4 +518,11 @@
 .custom-toggler .navbar-toggler-icon {
   background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.usp{
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 300px;
+  border-radius: 22.4px;
 }
