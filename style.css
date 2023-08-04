@@ -201,6 +201,9 @@
 }
 
 @media only screen and (max-width: 990px) {
+  .remove{
+    display: none;
+  }
   #email {
     display: none;
   }
