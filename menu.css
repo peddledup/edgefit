@@ -138,16 +138,18 @@ footer {
     max-height: 1920px;
     background-color: #F9EEE4;
     height: auto;
+    width: 1080px;
 }
 .cont-2 {
     max-height: 1920px;
     background-color: #FFF;
     height: auto;
+    width: 1080px;
 }
 .menu {
     list-style-type: none;
     margin-top: 80px;
-    margin-left: 50px;
+    padding-left: 50px;
     margin-bottom: 80px;
     cursor: pointer;
 }

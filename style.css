@@ -146,7 +146,7 @@
 
 
 #left-top {
-  padding-left: 90px;
+  padding-left: 180px;
   padding-top: 90px;
 }
 
@@ -193,19 +193,29 @@
   max-height: 568px;
   height: auto;
   width: auto;
+  margin-right:150px ;
 }
 
 #top-div {
   margin-top: 90px;
   margin-left: 90px;
 }
+.footer{
+  list-style-type: none;
+}
 
+.footer li{
+  float: left;
+}
 @media only screen and (max-width: 990px) {
   .remove{
     display: none;
   }
   #email {
     display: none;
+  }
+  #right-top-1{
+    margin-right: 10px;
   }
   #carousel-1 {
     background-color: #eef7f8;
