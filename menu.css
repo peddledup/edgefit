@@ -89,6 +89,9 @@
     .menu-item{
         margin-top:10px ;
     }
+    .bg{
+        display: none;
+    }
 }
 footer {
     background-color: #eef7f8;

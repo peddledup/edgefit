@@ -330,3 +330,10 @@ body{margin-top:20px;
       .zoom{
         transition: transform .2s;
       }
+      .user-1{
+        
+        max-height: 700px;
+        max-width: 100px;
+        width: auto;
+        height: auto;
+      }
