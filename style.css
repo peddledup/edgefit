@@ -109,9 +109,9 @@
 #h-2 {
   color: #3d3d3d;
   font-family: "Montserrat", sans-serif;
-  font-size: 70px;
+  font-size: 48px;
   font-weight: 800;
-  line-height: 85px;
+  line-height: normal;
   letter-spacing: 0em;
 }
 
@@ -174,23 +174,23 @@
 
 #right-top {
   border-radius: 100px 0px 197px 83px;
-  max-width: 374px;
-  max-height: 550px;
+  max-width: 663px;
+  max-height: 642px;
   height: auto;
   width: auto;
   background: url(/images/meal-1.svg), #ffa300 50% / cover no-repeat;
 }
 #right-top img{
-  max-height:530px ;
-  max-width: 354px;
+  max-height:642px ;
+  max-width: 663px;
   width: auto;
   height: auto;
   border-radius: 100px 0px 197px 83px;
 }
 #right-top-1 {
   border-radius: 100px 0px 197px 83px;
-  max-width: 663px;
-  max-height: 642px;
+  max-width: 579px;
+  max-height: 568px;
   height: auto;
   width: auto;
 }
@@ -290,7 +290,7 @@
 
 #p4 {
   font-family: KoHo;
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 500;
   line-height: 20px;
