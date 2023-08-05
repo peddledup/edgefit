@@ -282,6 +282,7 @@ body{margin-top:20px;
         width: auto;
         height: auto;
         padding-bottom: 90px;
+        margin-inline-start: 0;
       }
       
       #footer-p {
@@ -339,6 +340,7 @@ body{margin-top:20px;
       }
       .footer{
         list-style-type: none;
+        padding-inline-start: 0;
       }
       
       .footer li{
