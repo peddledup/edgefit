@@ -22,6 +22,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
     <link rel="icon" type="image/x-icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -50,7 +51,7 @@
         </div>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="email">
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="./images/email.svg" alt=""> edgefitnaturals@gmail.com 0124-4200889</a>
+                <a class="nav-link" href="#"><img src="./images/email.svg" alt=""> edgefitnaturals@gmail.com <img src="images/call.png">0124-4200889</a>
             </li>
         </ul>
     </nav>
@@ -80,9 +81,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="./images/search.svg" width="26px" height="26"></a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#"><input type="button" id="nav-btn" value="Order Online"></button></a>
                 </li>
@@ -168,17 +167,19 @@
       
           <div class="row text-center">
             <!-- Team item-->
-            <div class="col-xl-6 col-sm-6 mb-5">
-              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/vikas.jpg"" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <div class="col-xl-6 col-sm-6 mb-5  ">
+              <div class=" rounded shadow-sm py-5 px-4 card-hover"><img src="images/vikas.jpg"" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                 <h5 class="mb-0">Vikas Choudhary</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                <br><a href="https://www.linkedin.com/in/thevikaschaudhary" class="fa fa-linkedin" ></a><a href="https://instagram.com/vikaschaudhary139?igshid=OGQ5ZDc2ODk2ZA==" class="fa fa-instagram"></a>
               </div>
             </div>
             <!-- End-->
       
             <!-- Team item-->
-            <div class="col-xl-6 col-sm-6 mb-5">
-              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/vikram.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                <h5 class="mb-0">Vikram Choudhary</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+            <div class="col-xl-6 col-sm-6 mb-5 ">
+              <div class=" rounded shadow-sm py-5 px-4 card-hover"><img src="images/vikram.jpg" alt="" width="200" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Vikram Raj</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                <br><a href="https://www.linkedin.com/in/vikram-raj23" class="fa fa-linkedin" ></a><a href="https://instagram.com/vikram_931?igshid=OGQ5ZDc2ODk2ZA==" class="fa fa-instagram"></a>
                 
               </div>
             </div>
@@ -193,7 +194,7 @@
       <div class="container" style="margin-top: 52px;">
         <div class="row">
             <div class="col-sm" id="about-left">
-                <img src="./images/meal-1.jpg" style="border-radius: 22.4px;" class="img-fluid zoom">
+                <img src="./images/meal-1.jpg" data-toggle="tooltip" title="Nutrition Content: Cal 178 | Protein 34 | Carbs 7 | Fat 5 | Fiber 4.8" data-placement="bottom" style="border-radius: 22.4px;" class="img-fluid zoom">
             </div>
             <div class="col-sm">
                 <p id="p1">Our Journey</p>
@@ -282,7 +283,12 @@
 
 
 
-
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+    </body>
 
 
 

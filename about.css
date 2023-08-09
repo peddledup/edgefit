@@ -346,3 +346,33 @@ body{margin-top:20px;
       .footer li{
         float: left;
       }
+      .card-hover:hover{
+        color: #72a530;
+        background-color: #eef7f8;
+
+      }
+      .card-hover{
+        background-color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
