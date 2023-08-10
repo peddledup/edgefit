@@ -414,7 +414,7 @@ body{margin-top:20px;
       }
       
       #myBtn:hover {
-        background-color: white;
+        background-color: #FFA300;
       }
       
 
@@ -456,4 +456,52 @@ body{margin-top:20px;
         color: #FFA300;
         font-size: 36px;
         font-weight: 900;
+      }
+      section {
+        padding-bottom: 60px;
+        background-color: #f1f1f1;
+        color: #5a8720;
+        margin-top: 50px;
+      }
+      
+      .how-it-works h2 {
+        margin-top: 60px;
+        margin-bottom: 1.8rem;
+      }
+      
+      .how-it-works .box {
+        text-align: left;
+        border-left: 18px solid #f1f1f1;
+        background-color: #fff;
+      }
+      
+      .box::before {
+        content: "\f058";
+        color: #d60e96;
+        font-family: FontAwesome;
+        font-weight: 400;
+        font-style: normal;
+        display: block;
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        margin-top: -25px;
+        font-size: 2.5rem;
+      }
+      
+      @media (min-width: 600px) {
+        .how-it-works .d-flex {
+          display: flex;
+          justify-content: space-between;
+        }
+      
+        .box.col-md-6 {
+          width: 47%;
+          max-width: 47%;
+        }
+      }
+
+      .box:hover{
+        opacity: 0.7;
+        transform: scale(1.1);
       }
