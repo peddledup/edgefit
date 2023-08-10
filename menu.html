@@ -94,6 +94,7 @@
         <h1 class="title-heading">Edgefit Shakes</h1>
         <div class="row">
             
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/upward-arrow.png"/></button>
             <div class="col-sm">
                 <ul class="menu">
                     <li class="menu-item">
@@ -150,15 +151,15 @@
                         <p class="food-ingridients-white">Ingredients: chicken, rice, vegies, and spinach sausage</p>
                     </li>
                     <li class="menu-item">
-                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 178 | Protein 34 | Carbs 7 | Fat 5 | Fiber 4.8" data-placement="bottom">Grilled Chicken with Khao Suey Sauce<img src="./images/bbq-grill.png" class="pop"></h2>
+                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 337g | Protein 51.6g | Carbs 58g | Fat 6.4g |" data-placement="bottom">Grilled Chicken with Khao Suey Sauce<img src="./images/bbq-grill.png" class="pop"></h2>
                         <p class="food-ingridients-white">  Ingredients: chicken, coconut milk, vegies, khao suye </p>
                     </li>
                     <li class="menu-item">
-                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 178 | Protein 34 | Carbs 7 | Fat 5 | Fiber 4.8" data-placement="bottom">Grilled chicken with mashed potato<img src="./images/mashed-potato.png" class="pop"></h2>
+                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 662g | Protein 46.2g | Carbs 46.8g | Fat 32.8g |" data-placement="bottom">Grilled chicken with mashed potato<img src="./images/mashed-potato.png" class="pop"></h2>
                         <p class="food-ingridients-white">Ingredients: chicken, potato, vegies</p>
                     </li>
                     <li class="menu-item">
-                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 178 | Protein 34 | Carbs 7 | Fat 5 | Fiber 4.8" data-placement="bottom">Grilled Paneer with Mashed Potato<img src="./images/palak-paneer.png" class="pop"></h2>
+                        <h2 class="food-name-white"   data-toggle="tooltip" title="Nutrition Content: Cal 662g | Protein 46.2g | Carbs 46.8g | Fat 32.8g |" data-placement="bottom">Grilled Paneer with Mashed Potato<img src="./images/palak-paneer.png" class="pop"></h2>
                         <p class="food-ingridients-white"> Ingredients: paneer, potato, vegies,</p>
                     </li>
                     <li class="menu-item">
@@ -210,7 +211,7 @@
                     <p class="food-ingridients">Ingredient: Whole wheat wrap, paneer, rice, cabbage, onion, tomato, cucumber, bellpeppr served with nachos chips</p>
                 </li>
                 <li class="menu-item">
-                    <h2 class="food-name" data-toggle="tooltip" title="Nutrition Content: Cal 178 | Protein 34 | Carbs 7 | Fat 5 | Fiber 4.8" data-placement="bottom">Chicken wrap<img src="./images/burrito (1).png" class="pop"></h2>
+                    <h2 class="food-name" data-toggle="tooltip" title="Nutrition Content: Cal 336 | Protein 41.5g | Carbs 21g | Fat 5.5 |" data-placement="bottom">Chicken wrap<img src="./images/burrito (1).png" class="pop"></h2>
                     <p class="food-ingridients">Ingredient: whole wheat wrap, chicken, onion, tomato, cucumber, iceberg lettuce, bellpeppr, basin leaf served with nachos chips</p>
                 </li>
                 <li class="menu-item">
@@ -362,10 +363,37 @@
     </div>
 </div>
 <!-- Footer end -->
+<nav class="navbar navbar-expand-lg" id="nav-top-1">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <p id="p3-down">Copyright © 2023 EdgeFit Naturals®. All rights reserved.</p>
+            </li>
+        </ul>
+    </div>
+    
+</nav>
+
 <script>
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     });
+    // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
     </script>
 </body>
 
